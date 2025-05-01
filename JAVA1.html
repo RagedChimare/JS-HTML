@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>JAVA</title>
+    <link rel="stylesheet" href="css4.css">
+</head>
+<body>
+    <h3 class="h3" id="baslik">Bugün Hava Çok Güzel</h3>
+    <div class="container">
+        <button class="butonlar" onclick="bTiklandi()">BÜYÜK HARF</button>
+        <button class="butonlar" onclick="kTiklandi()">küçük harf</button>
+        <button class="butonlar" onclick="rTiklandi()">Renk değiştir</button>
+        <button class="butonlar" onclick="fTiklandi()">Font değiştir</button>
+    </div>
+</body>
+<script>
+    function bTiklandi()
+    {
+        document.getElementById("baslik").style.textTransform="uppercase"
+    }
+    function kTiklandi()
+    {
+        document.getElementById("baslik").style.textTransform="lowercase"
+    }
+    function rTiklandi()
+    {
+        document.getElementById("baslik").style.color="red"
+    }
+    function fTiklandi()
+    {
+        document.getElementById("baslik").style.fontFamily="Times New Roman"
+    }
+</script>
+</html>

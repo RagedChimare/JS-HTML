@@ -1,0 +1,29 @@
+.container
+{
+    width: 30%;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(155,154,154);   
+}
+.h3
+{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.p
+{
+    padding: 12px;
+}
+.d
+{
+    text-decoration: none;
+    background-color: rgb(255, 226, 129);
+    font-weight: bold;
+}
+.devami
+{
+    display: none;
+}

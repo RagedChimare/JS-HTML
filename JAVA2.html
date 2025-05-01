@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA2</title>
+    <link rel="stylesheet" href="css5.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>GENERAL ALİ RIZA ERSİN MTAL</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipiscing elit.</p>
+        <a href="#" class="d" id="d" onclick="gosterGizle()"><i>devamını oku</i></a>
+        
+        <span id="devami" class="devami">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum unde consectetur voluptas magnam assumenda quaerat aperiam! Recusandae, pariatur. Iusto, deleniti consectetur? Consectetur non maxime numquam fuga quo voluptatum corporis modi omnis ex itaque, saepe, at facere quia, fugiat reiciendis accusamus?</p>
+        </span>
+    </div>
+
+    <script>
+        function gosterGizle() {
+            if (document.getElementById("devami").style.display == "block") {
+                document.getElementById("devami").style.display = "none";
+                document.getElementById("d").innerHTML = "devamını oku";
+            } else {
+                document.getElementById("devami").style.display = "block";
+                document.getElementById("d").innerHTML = "gizle";
+            }
+        }
+    </script>
+</body>
+</script>
+</html>
